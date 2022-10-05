@@ -27,7 +27,7 @@ let tdate = daydate + " " + month + " "  + year + " " + dayname;
 
 btn.addEventListener("click", function(){
     let uservalue = document.querySelector("#inputbox").value;
-    let url = ('https://api.weatherstack.com/current?access_key=0aff6a48b44950efc019434728ccf0e0&query=' + uservalue)
+    let url = ("http://api.weatherstack.com/current?access_key=0aff6a48b44950efc019434728ccf0e0&query=" + uservalue)
 
 
      async function userdata(){
